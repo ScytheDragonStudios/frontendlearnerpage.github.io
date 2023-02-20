@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Learning Template</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="main.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1 class="html">HTML</h1>
+        <h1>Headers</h1>
+        <p>Header tags begin with H1 and go all the way down to H6.</p>
+        <p>With each header, the text remains bold but will become smaller</p>
+        <ol>Example
+            <li><h1>H1</h1></li>
+            <li><h2>H2</h2></li>
+            <li><h3>H3</h3></li>
+            <li><h4>H4</h4></li>
+            <li><h5>H5</h5></li>
+            <li><h6>H6</h6></li>
+        </ol>
+        <h1>Paragraphs</h1>
+        <p>The Paragraph tag is distinguished by a P.</p>
+        <p>This tag is where you put full sentences, like if you were writing a <br>
+        portfolio page and description</p>
+        <h1>Links</h1>
+        <p>The Link tag is used to define a Hyperlink, or a connection to another webpage.</p>
+        <p>They have 'a' and are followed by the link itself in an 'href' tag</p>
+        <p>Example: <a href="">Here</a> is a Link tag with no destination. <br>
+        Clicking it will not take you anywhere.</p>
+        <p>Example 2: <a href="scythedragonstudios.github.io">This</a> link takes you <br>
+        to my Portfolio website, currently a work-in-progress.<br>
+    Spoiler, I just added Bootstrap, which makes it more responsive and for mobile devices.</p>
+        <p>Example 3: <a href="" title="portfolio">Here</a> is one where <br>
+        if you hover over the link, a new title will pop up. This is done by <br>
+    inserting a 'Title' value and giving it a name to show.</p>
+        <h1>Images</h1>
+        <p>Images tags are set with 'img', followed by a src tag with where the image is.</p>
+        <p>You can do this two ways: Either by uploading an image to your code editor <br/>
+        or using an image address, like say the Google daily image</p>
+        <ol>Examples
+            <li >Done with upload <img class="imgSize" src="PurpleLogo.JPG"/></li>
+            <li>Taken from Google <img src="data:image/jpeg;base64,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"/></li>
+        </ol>
+        <p>It's important to remember to use only Free-use images or <br/>
+        images you own or have explicit rights to use</p>
+        <h1>Lists</h1>
+        <p>The List tag comes in two parts and has two forms</p>
+        <p>The first is the 'UL' tag which is Unordered List</p>
+        <ul>Example
+            <li>Watch Anime</li>
+            <li>Drink Water</li>
+            <li>Code Video Game</li>
+        </ul>
+        <p>The second is 'ol' or Ordered List</p>
+        <ol>Example
+            <li>Eat Dinner</li>
+            <li>Brush Teeth</li>
+            <li>Sleep</li>
+        </ol>
+        <p>These lists are made possible with the 'li' tag that goes in<br/>
+            both OL and UL.</p>
+
+        <h1>Forms</h1>
+        <p>Forms are nifty tools for FrontEnd. Forms allow user input, and <br/>
+        with a little Javascript, can also be used for emails, searches, and saving <br/>data.</p>
+        <p><b>Example</b></p>
+        <form>
+            <div>
+                Name: <input type="text" />
+            </div>
+            <div>
+                Age: <input type="number" />
+            </div>
+            <div>
+                <input type="submit" value="save" />
+            </div>
+        </form>
+        <p>The first input type is 'Text' which tells users to type<br/>
+        and interact with the form.</p>
+        <p>The second input is of the value 'Number' which tells<br/>
+        users to type in numbers.</p>
+        <p>The third input is of type 'Submit' which will clear the form<br/>
+        and with some javascript, or php, let data be saved to the website or even<br/>sent in an email.</p>
+        <p><b><i>Forms Part 2</i></b></p>
+        <p>Forms can also have required elements, meaning that before<br/>
+        a user can click Submit, they have to fill out that part of the<br/>
+    form.</p>
+        <p>Forms also allow for Checkboxes and Textareas, for user input like<br/> descriptions of problems on a help form</p>
+        <p><b>Example</b></p>
+        <form>
+            <div>
+                Name: <input type="text" required />
+            </div>
+            <div>
+                <input type="checkbox" checked/> is a member?
+            </div>
+            <div>
+                <textarea></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Save" />
+            </div>
+        </form>
+        <p>Now when you try to click submit, without filling in the <br/>
+        name field, it won't let you. The checkbox can be toggled on<br/>
+    or off for that field, and the text area can have as much data in it that<br/>you want to fit. </p>
+        <p><b><i>Forms Part 3</i></b></p>
+        <form>
+            <div>
+                <select>
+                    <option></option>
+                    <option>Red</option>
+                    <option selected>Blue</option>
+                    <option>Yellow</option>
+                </select>
+            </div>
+        </form>
+        <p>This form has the 'Select' tag, which gives users the option to<br/>
+        choose a value based on pre-set options</p>
+        <p>If you put 'Selected' as a value in an option tag, that option will<br/>be pre-selected prior to user input</p>
+        <p>Forms can also be set up to have multiple answers. This is made possible <br/>by the 'Multiple' value you put in the 'Select' tag.</p>
+        <p><b>Example:</b></p>
+        <form>
+            <select multiple>
+                <option></option>
+                <option>USA</option>
+                <option selected>Finland</option>
+                <option>France</option>
+                <option>Germany</option>
+                <option selected>Japan</option>
+            </select>
+        </form>
+            <h1>Tables</h1>
+            <p>Tables are a nifty way of showing data on a website.  It use to be<br/>the goto to set up your webpage, but now we use CSS, <br/>
+            Cascading Style Sheets.  More on that below.</p>
+            <table border="">
+                <tr>
+                    <th>Playstation Game</th>
+                    <th>Plat?</th>
+                    <th>Did I Earn?</th>
+                </tr>
+                <tr>
+                    <td>CyberPunk 2077</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Sam and Max</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+            </table>
+            <p>The 'Table' tag is first put, then you use 'TR' to set up Rows.</p>
+            <p>'TD' is then used to put data into the table.</p>
+            <p>To make the first row bold, you use 'TH' or Table Header, instead<br/>of 'TR'.</p>
+            <p>To ensure a border appears on your table, in the table tag you <br/>add 'Border'</p>
+            <h1 class="css">CSS</h1>
+        <script src="script.js"></script>
+    </body>
+</html>
